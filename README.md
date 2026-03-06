@@ -10,9 +10,6 @@ Predicts the final Premier League standings using a **Poisson GLM** and **Monte 
 
 ```
 premier-league-predictor/
-├── data/
-│   ├── raw/
-│   └── processed/
 ├── src/
 │   ├── downloader.py          # Fetch E0 + E1 CSVs from football-data.co.uk
 │   ├── preprocessor.py        # Clean + standardise team names
